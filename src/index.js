@@ -14,7 +14,7 @@ import SelectCriteria from './components/selectcriteria';
 import RevenueReport from './components/revenuereport';
 
 
-const ROOT_URL=`http://localhost:3000/glintserver/datafetch`; //Node JS end point to fetch data from server.
+const ROOT_URL=`http://localhost:3000/zeusserver/datafetch`; //Node JS end point to fetch data from server.
 
 class App extends Component {
 
@@ -131,7 +131,7 @@ class App extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="panel-footer text-center">Glint UI Coding Challenge</div>
+                    <div className="panel-footer text-center">Zeus UI</div>
                 </div>
             </div>
         );

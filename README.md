@@ -1,14 +1,14 @@
-# glintanalytics
+# zeus
 
 ###Getting Started###
 
 Checkout this UI repo, install depdencies, then start the process with the following commands:
 
 ```
-    Before checking out this UI repo Please checkout the glintserverapi and run the server first
+    Before checking out this UI repo Please checkout the zeusserverapi and run the server first
     
-    > git clone https://github.com/tejaswaroop51/glintserverapi.git
-    	> cd glintserverapi
+    > git clone https://github.com/tejaswaroop51/zeusserverapi.git
+    	> cd zeusserverapi
     	> npm install
     	> npm start
     	
@@ -16,13 +16,14 @@ Checkout this UI repo, install depdencies, then start the process with the follo
     	
     	Method: POST ( I made it post call for security purposes!!!!! :))
     	
-    	API URL: http://localhost:3000/glintserver/datafetch
+    	API URL: http://localhost:3000/zeusserver/datafetch
     	
-    Steps for UI Repo checkout and Testing
-
-	> git clone https://github.com/tejaswaroop51/glintanalytics.git
-	> cd glintanalytics
+    Steps for UI Repo checkout and Testing (Node Version 4.4.3 and npm version 2.15.1)
+    
+    > git clone https://github.com/tejaswaroop51/zeus.git
+	> cd zeus
 	> npm install
+	(   **Please ignore if you get any npm errors and warnings**. all the node_modules will get installed and please proceed to npm start)
 	> npm start
 	
 	After server is started in your local, you can check check the UI using below URL

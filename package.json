@@ -1,9 +1,9 @@
 {
-  "name": "glintanalytics",
+  "name": "zeus",
   "version": "1.0.0",
   "description": "Simple Analytics Web App using React and Nodejs",
   "main": "index.js",
-  "repository": "https://github.com/tejaswaroop51/glintanalytics.git",
+  "repository": "https://github.com/tejaswaroop51/zeus.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
